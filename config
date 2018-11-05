@@ -108,6 +108,8 @@ bindsym Control+Print exec gnome-screenshot -i
 bindsym XF86MonBrightnessUp     exec sudo bl -inc 200
 bindsym XF86MonBrightnessDown 	exec sudo bl -dec 200
 
+assign [class="Firefox"] $workspace2
+assign [class="Thunderbird"] $workspace10
 
 bar {
         status_command i3status
