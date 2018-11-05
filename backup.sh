@@ -31,7 +31,7 @@ echo "Done."
 
 # /etc/fstab
 # usbkey for backup - Nov 2018
-# UUID="029d707c-f1e9-470a-9e66-5bfa95fc575b" /vol/backup ext4 rw,user 0 2
+# UUID="029d707c-f1e9-470a-9e66-5bfa95fc575b" /vol/backup ext4 rw,user,noauto 0 2
 
 # ls -lR /vol
 # drwxrwxr-x 2 jp jp 4,0K nov.   4 12:26 backup/
