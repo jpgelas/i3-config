@@ -12,8 +12,9 @@ fi
 case "$1" in 
 	on)
 		echo "Switching ON external display ($EXT_DISP)"
+		# Ecran LG @home
 		xrandr --output "eDP-1" --mode 3840x2160 --pos 0x0 --output $EXT_DISP --mode 1920x1080 --pos 0x0 --scale-from 3840x2160
-		#xrandr --output "eDP-1" --mode 3840x2160 --pos 0x0 --output "DP-2" --mode 1024x768 --pos 0x0 --scale-from 3840x2160
+		#xrandr --output "eDP-1" --mode 3840x2160 --pos 0x0 --output $EXT_DISP --auto  --pos 0x0 --scale-from 3840x2160
 		#xrandr --output "eDP-1" --mode 3840x2160 --pos 0x0 --output "DP-2" --auto --pos 0x0 --scale-from 3840x2160
 		;;
 	off)
